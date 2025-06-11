@@ -1,25 +1,25 @@
 # PteroPanel Auto Deploy
 
-## 🚀 Fitur
-- Buat User otomatis
-- Deploy server Minecraft Java, Bedrock, dan Discord Bot otomatis via API
+## 🚀 Features
+- Automatically create users
+- Deploy Minecraft Java, Bedrock, and Discord Bot servers via API
 
-## 📦 Struktur
-- `server/` → Backend Express
-- `app/` → Frontend Next.js
+## 📦 Structure
+- `server/` → Express backend
+- `app/` → Next.js frontend UI
 
-## 🛠 Cara Pakai
-1. Salin `.env.example` ke `.env` dan isi sesuai kebutuhan
-2. Jalankan backend:
+## 🛠 How to Use
+1. Copy `.env.example` to `.env` and fill it with your values
+2. Run the backend:
 ```bash
 cd server
 npm install
 node index.js
 ```
-3. Jalankan frontend:
+3. Run the frontend:
 ```bash
 npm install
 npm run dev
 ```
 
-Frontend akan tersedia di `localhost:3000`, backend di `localhost:3001`
+Frontend available at `localhost:3000`, backend at `localhost:3001`
